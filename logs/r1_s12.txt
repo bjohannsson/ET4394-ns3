@@ -1,0 +1,16 @@
+Waf: Entering directory `/home/dr/dev/nw/ns-allinone-3.24/ns-3.24/build'
+[ 904/2366] Compiling scratch/sp.cc
+[2343/2366] Linking build/scratch/sp
+Waf: Leaving directory `/home/dr/dev/nw/ns-allinone-3.24/ns-3.24/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (4.042s)
+C 1 12 10
+Starting simulation...
+
+1 10.1.1.2 10.1.1.1 6595.04kbps
+Total troughput: 6595 kbps
+AVG: 6595 kbps
+Terminating simulation!
+561
+
+V 6.60634 Mbit/s

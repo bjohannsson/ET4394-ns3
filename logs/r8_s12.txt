@@ -1,0 +1,21 @@
+Waf: Entering directory `/home/dr/dev/nw/ns-allinone-3.24/ns-3.24/build'
+Waf: Leaving directory `/home/dr/dev/nw/ns-allinone-3.24/ns-3.24/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.247s)
+C 8 12 10
+Starting simulation...
+
+1 10.1.1.2 10.1.1.1 173.885kbps
+2 10.1.1.3 10.1.1.1 161.329kbps
+3 10.1.1.4 10.1.1.1 53.3137kbps
+4 10.1.1.5 10.1.1.1 81.2692kbps
+5 10.1.1.6 10.1.1.1 113.88kbps
+6 10.1.1.7 10.1.1.1 120.142kbps
+7 10.1.1.8 10.1.1.1 61.4125kbps
+8 10.1.1.9 10.1.1.1 87.7519kbps
+Total troughput: 849 kbps
+AVG: 106 kbps
+Terminating simulation!
+558
+
+V 0.821376 Mbit/s
