@@ -77,4 +77,4 @@ ax.legend( (plotBar[0], plotBar2[0], plotBar3[0], plotBar4[0], plotBar5[0]),
 
 
 fig.savefig('images/packetSize.png')
-# plt.show()
+plt.show()
