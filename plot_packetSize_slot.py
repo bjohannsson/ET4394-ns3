@@ -76,6 +76,7 @@ plotBar5 = ax.bar(ind+0.2, avg[4], width, color='cyan', align='center')
 ax.set_xlim(-(width+0.5), (n)+width)
 ax.set_ylim(0, max(avg[0])+0.5)
 ax.set_ylabel('Throughput [Mbps]')
+ax.set_xlabel('Slot Time')
 ax.set_title('Varying the DCF slot time and payload')
 xTickMarks = ['12 $\mu s$', '20 $\mu s$', '25 $\mu s$', '30 $\mu s$', '50 $\mu s$']
 ax.set_xticks(ind+width/2)
