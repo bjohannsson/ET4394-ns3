@@ -34,13 +34,18 @@ int main (int argc, char *argv[])
   uint32_t sifs = 10; //SIFS duration in microseconds
 
   uint32_t packetSize = 1472;
-  uint32_t maxPacket = 120000;
+  uint32_t maxPacket = 40000;
+
 
   CommandLine cmd;
   cmd.AddValue ("n", "Number of nodes", nNodes);
   cmd.AddValue ("slot", "DCF slot time", slot);
   cmd.AddValue ("ps", "Packet size", packetSize);
   cmd.Parse (argc,argv);
+  
+  if (packetSize < 1472) {
+    maxPacket = 120000;
+  }
 
   int32_t pifs = slot+sifs;
   StringValue DataRate = StringValue("DsssRate11Mbps");

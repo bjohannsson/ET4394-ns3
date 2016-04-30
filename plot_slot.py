@@ -76,5 +76,5 @@ ax.legend( (plotBar[0], plotBar2[0], plotBar3[0], plotBar4[0], plotBar5[0]),
     ('12 ${\mu}s$', '20 ${\mu}s$', '25 ${\mu}s$', '30 ${\mu}s$', '50 ${\mu}s$'))
 
 
-# fig.savefig('images/slot.png')
+fig.savefig('images/slot.png')
 plt.show()
